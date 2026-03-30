@@ -51,13 +51,6 @@ Makefile является **исполняемой документацией**:
 | 4 | Документирование и автоматизация качества | ✅ |
 
 
-## 🚀 Запуск приложения
-
-```bash
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.lock.txt
-python app.py
 
 ## Файлы в репозитории
 
@@ -69,3 +62,13 @@ python app.py
 - `requirements.lock.txt` — все зависимости с точными версиями
 - `.gitignore` — игнорируемые файлы
 - `analysis.md` — анализ рисков неатомарных коммитов
+
+
+
+## 🚀 Запуск приложения
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.lock.txt
+python app.py
