@@ -12,10 +12,10 @@ def process_user_data(user_data):
     if user_data['age'] < 18:
         return {"error": "Too young"}
     
-    result = {
+    processed_data = {
         "name": user_data['name'].upper(),
         "email": user_data['email'].lower(),
-        "status": "active"
+        "status": get_user_status(age)  # NEW: using new function
     }
     
     print(f"Processing user: {processed_data['name']}")
