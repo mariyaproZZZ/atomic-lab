@@ -50,6 +50,15 @@ Makefile является **исполняемой документацией**:
 | 3 | Обеспечение воспроизводимости | ✅ |
 | 4 | Документирование и автоматизация качества | ✅ |
 
+
+## 🚀 Запуск приложения
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.lock.txt
+python app.py
+
 ## Файлы в репозитории
 
 - `app.py` — основное приложение
